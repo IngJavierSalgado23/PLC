@@ -1,10 +1,7 @@
 
-__authors__ = 'SMiiCK & Salgado.INC & Parra & Paco'
+__authors__ = 'Antonio Salgado, Enrique Parra, Raul Gonzalez'
 
-#Falta borrar subescalon
-#La lista simplemente enlazada de raul no sirve, en realidad no es una lista
-#Importante Estoy usando Process por lo cual no comparten memoria
-#Falta agregar latch,unlatch,contadores y temporizadores
+
 from Tkinter import *
 from componente import *
 from Node import Node, Lista
