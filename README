@@ -1,0 +1,24 @@
+This repository was developed as a school project for the class of PLC Design 2016-1 by Antonio Salgado, Enrique Parra and Raul Gonzalez.
+The idea of this project is to create an affordable PLC for education with all the function an expensive PLC contains.
+Is build upon a Raspberry Py 3 processor and uses cheap electronics components (see schematics). 
+The ladder logic interface is build using python 3, and provides the next functionality:
+
+*Input (3) and Outputs (3)
+*Normally closed and normally open inputs and outputs.
+*Internal bit registers (100,000)
+*Latch and unlatch
+*Counters
+*Timers
+*Adding multiple substeps.
+*Save and Load your ladder programs. (We use pickle to store the data, not compatible with other PLC software yet)
+*Dynamic interface 
+
+Upcoming features
+*SSH connectivity.
+*AWS IoT support for web applications.
+*Save and load files compatability with other PLCs.
+*Refactor Code.
+
+Things to do
+*Upload all the remaining source code, including resources (images and code examples).
+*Upload schematics.
